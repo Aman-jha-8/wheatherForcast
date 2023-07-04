@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css">
+    <title>Weather Forecast</title>
+
+</head>
+
+<body class="bg-info">
+    <div class="container" id="bod">
+        <h1>Weather Forecast</h1>
+        <form>
+            <label for="city">Enter City Name:</label>
+            <input type="text" id="city" name="city" required>
+            <button type="submit">Get Forecast</button>
+        </form>
+        <table id="weather-table">
+            <thead class="bg-success">
+                <tr>
+                    <th>Date</th>
+                    <th>Temperature (&deg;C)</th>
+                    <th>Humidity (%)</th>
+                    <th>Pressure</th>
+                    <th>Weather</th>
+                    <th>Wind Speed</th>
+                    <th>sea level</th>
+                    <th>country</th>
+                    <th>Longitude & latitude</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td id="temp1"></td>
+                    <td id="humidity1"></td>
+                    <td id="aqi1"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td id="temp2"></td>
+                    <td id="humidity2"></td>
+                    <td id="aqi2"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td id="temp3"></td>
+                    <td id="humidity3"></td>
+                    <td id="aqi3"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td id="temp4"></td>
+                    <td id="humidity4"></td>
+                    <td id="aqi4"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td id="temp5"></td>
+                    <td id="humidity5"></td>
+                    <td id="aqi5"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td id="temp5"></td>
+                    <td id="humidity5"></td>
+                    <td id="aqi5"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Next Monday</td>
+                    <td id="temp5"></td>
+                    <td id="humidity5"></td>
+                    <td id="aqi5"></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+    <div class="lst">
+        <footer class="bottomconnect linksimg">
+            <div class="end container-link social">
+                <div class="element-end fb"><a href="#"><i class="fab fa-facebook-f"></i></a></div>
+                <div class="element-end tw"><a href="#"><i class="fab fa-twitter"></i></a></div>
+                <div class="element-end lc">
+                    <a href="https://leetcode.com/Aman_jha_/"><img class="lcimg" src="images/leetcode.png" alt="LeetCode"></a>
+                </div>
+                <div class="element-end ln"><a href="https://www.linkedin.com/in/aman-jha-07334a254/"><i class="fab fa-linkedin-in"></i></a></div>
+                <div class="element-end gh"><a href="https://github.com/Amanjha8503/"><i class="fab fa-github"></i></a></div>
+                <div class="element-end wa"><a href="https://api.whatsapp.com/send/?phone=8941951465&text&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i></a></div>
+            </div>
+        </footer>
+        <div class="cp-right strip-black">
+            <p>&copy; 2023 AmanJha | All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
