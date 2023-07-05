@@ -55,6 +55,8 @@ async function displayWeatherData() {
     // Get the body element
     const body_colour = document.getElementById('bod');
 
+    body_colour.classList.remove('bg-primary','bg-secondary','bg-success','bg-light','bg-info');
+
     // Add the appropriate color class based on the weather condition
     if (weatherCondition === 'Rain' || weatherCondition === 'Drizzle') {
         body_colour.classList.add('bg-primary');
